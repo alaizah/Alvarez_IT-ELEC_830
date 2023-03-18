@@ -5,6 +5,7 @@ import android.nfc.Tag
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.widget.Button
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -17,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         Log.w(TAG, "This is a warn log.")
         Log.e(TAG, "This is an error log.")
 
-        Button button = (Button) findViewbyId(R.id.button2)
-        button.setOnClickListener(new View.OnClickListener())
+       // Button button = (Button) findViewbyId(R.id.button2)
+        //button.setOnClickListener(new View.OnClickListener())
     }
 }
